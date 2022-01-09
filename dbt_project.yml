@@ -19,5 +19,7 @@ clean-targets:
 models:
   jaffle_shop:
       materialized: table
+      +meta:
+        roles: [ 'owner' ]
       staging:
         materialized: view

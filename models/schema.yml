@@ -3,7 +3,8 @@ version: 2
 models:
   - name: customers
     description: This table has basic information about a customer, as well as some derived facts based on a customer's orders
-
+    meta:
+        roles: ['owner', 'customer-success-viewer']
     columns:
       - name: customer_id
         description: This is a unique identifier for a customer
@@ -31,7 +32,8 @@ models:
 
   - name: orders
     description: This table has basic information about orders, as well as some derived facts based on payments
-
+    meta:
+      roles: [ 'owner', 'sales-viewer' ]
     columns:
       - name: order_id
         tests:
