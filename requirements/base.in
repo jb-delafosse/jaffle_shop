@@ -1,2 +1,3 @@
 dbt-core==1.0.1
 dbt-bigquery==1.0.0
+dbt-rpc==0.1.1

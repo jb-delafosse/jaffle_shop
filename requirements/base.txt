@@ -98,6 +98,7 @@ dbt-core==1.0.1 \
     # via
     #   -r requirements/base.in
     #   dbt-bigquery
+    #   dbt-rpc
 dbt-extractor==0.4.0 \
     --hash=sha256:06b78f6d5b79b6ca385931cc63f2757b5892960f1c95e918e4874b67e190c0e3 \
     --hash=sha256:079e47ee37e2048d231a03caeaf3a971290727ddadfd6e6662775f52afd2b698 \
@@ -153,6 +154,10 @@ dbt-extractor==0.4.0 \
     --hash=sha256:f776821a92b1419745ce4fe77d1f3bba46b9efccec3d2f8d0353f3bcb9b10150 \
     --hash=sha256:fcc6fe049f89a98cd5557732d53efd7bf5a13e7aaa18cdc4db83ffcd31c13522
     # via dbt-core
+dbt-rpc==0.1.1 \
+    --hash=sha256:4577cc3051151db8d06e34a92e9371e38fbddd7d4bd1970e5c1f7c0a34c18ad0 \
+    --hash=sha256:fb5a8ac08d4d8eac86fab0949e0e58a74c2f28233a77670ff057c5594d2e6a5c
+    # via -r requirements/base.in
 future==0.18.2 \
     --hash=sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d
     # via parsedatetime
@@ -312,6 +317,10 @@ jinja2==2.11.3 \
     --hash=sha256:03e47ad063331dd6a3f04a43eddca8a966a26ba0c5b7207a9a9e4e08f1b29419 \
     --hash=sha256:a6d58433de0ae800347cab1fa3043cebbabe8baa9d29e668f1c768cb87a333c6
     # via dbt-core
+json-rpc==1.13.0 \
+    --hash=sha256:84b45058e5ba95f49c7b6afcf7e03ab86bee89bf2c01f3ad8dd41fe114fc1f84 \
+    --hash=sha256:def0dbcf5b7084fc31d677f2f5990d988d06497f2f47f13024274cfb2d5d7589
+    # via dbt-rpc
 jsonschema==3.1.1 \
     --hash=sha256:2fa0684276b6333ff3c0b1b27081f4b2305f0a36cf702a23db50edb141893c3f \
     --hash=sha256:94c0a13b4a0616458b42529091624e66700a17f847453e52279e35509a5b7631
