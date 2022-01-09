@@ -4,5 +4,6 @@ dbt_modules/
 logs/
 **/.DS_Store
 venv/
+secrets/
 .idea
 .tool-versions
